@@ -12,15 +12,17 @@ A aplicação foi desenvolvida em **Python** utilizando **FastAPI**, permitindo 
 
 ## Como rodar
 
+### Swagger
+
 É necessário ter o **Python 3.10+** instalado na máquina.
 
-### Instalar dependências
+#### Instalar dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Executar a aplicação
+#### Executar a aplicação
 
 ```bash
 uvicorn main:app --reload
@@ -33,3 +35,7 @@ http://localhost:8000/docs
 ```
 
 Nesta página é possível testar os endpoints da Máquina de Turing diretamente pelo navegador.
+
+### Executável
+
+Existe um arquivo executável que abre uma interface gráfica, caso o Windows bloqueie o executável clique em Mais Informações e aceite abrir o executável
